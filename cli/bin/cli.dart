@@ -1,9 +1,17 @@
 void main() {
-  List carBrands = ["lexus", "toyota", "subaru", "mits"];
+  Cars carOne = Cars();
 
-  print(carBrands);
-  carBrands.add("BMW");
-  print(carBrands); // just like in python
+  carOne.carCode();
+  print(carOne.carCylinders);
 }
 
-String greeting() => "Hello"; //one line function just like in JS
+class Cars {
+  String carName = "Lexus";
+  String carModel = "IS-350";
+
+  int carCylinders = 6;
+
+  void carCode() {
+    print("v63.0L");
+  }
+}
