@@ -1,9 +1,9 @@
 void main() {
-  dynamic name = "Josh"; //dynamic allows variables to change type, nice
-  name = 30;
-  print(name);
-  String greet = greeting();
-  print(greet);
+  List carBrands = ["lexus", "toyota", "subaru", "mits"];
+
+  print(carBrands);
+  carBrands.add("BMW");
+  print(carBrands); // just like in python
 }
 
 String greeting() => "Hello"; //one line function just like in JS
