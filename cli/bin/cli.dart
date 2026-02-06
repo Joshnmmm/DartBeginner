@@ -1,3 +1,5 @@
 void main() {
-  print("Hello World!");
+  dynamic name = "Josh"; //dynamic allows variables to change type, nice
+  name = 30;
+  print(name);
 }
